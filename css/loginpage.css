@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1.5px rgb(225,225,225) solid;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: dimgrey;
+}
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover,header li a:hover,header .help a:hover{
+    color: red;
+}
+header .logo{
+    float: left;
+    height: 60px;
+    width: 160px;
+    margin:15px 800px 15px 80px;
+}
+header p{
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+header p a{
+    color:dodgerblue;
+}
+header .help a,header li a{
+    color: dimgrey;
+}
+header .help{
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    margin-left: 15px;
+
+}
+header .help img{
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+header ul{
+    position: absolute;
+    border: 1px solid lightgray;
+    list-style: none;
+    top: 0px;
+    right: -2px;
+    width: 99px;
+    height: 143px;
+    padding-top: 32px;
+    display: none;
+}
+header li{
+    line-height: 28px;
+    border: 1px rgba(0,0,0,0.1) solid;
+    padding-left: 24px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+header .help:hover ul{
+    display: block;
+}
+/*===============================中间*/
+section{
+    height: 420px;
+    color: dimgrey;
+}
+section a{
+    color: dimgrey;
+}
+section .s_pic1{
+    float: left;
+    margin-left: 180px;
+    margin-top: 30px;
+    height: 350px;
+}
+section .login_box{
+    width: 350px;
+    height: 360px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+section .login_box h5:first-of-type{
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+section .login_box .lb_a1{
+    float: right;
+    margin-top: 10px;
+    font-size: 14px;
+    color: dodgerblue;
+}
+section .login_box .lb_a1:hover{
+    color: red;
+}
+section form input[type=text]{
+    width: 349px;
+    height: 50px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    position: relative;
+}
+section form .s_pic2{
+    position: absolute;
+    top: 211px;
+    right:510px ;
+    z-index: 1;
+}
+section form input[type=password]{
+    width: 349px;
+    height: 50px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    position: relative;
+}
+section form .s_pic3{
+    position: absolute;
+    top: 267px;
+    right:507px ;
+    z-index: 1;
+}
+section form input[type=checkbox]{
+    margin: 10px 5px 15px 0px;
+}
+section form input[type=checkbox]+a{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+section form input[type=submit]{
+    width: 350px;
+    height: 55px;
+    background: rgb(255,60,60);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+section form a:first-of-type{
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 20px;
+    margin-top: 15px;
+}
+section form a:last-of-type{
+    float: right;
+    font-size: 14px;
+    margin-top: 6px;
+}
+section a{
+    text-decoration: none;
+}
+section form input[type=text]:focus,section form input[type=password]:focus,section form input[type=submit]:focus{
+    outline: none;
+    border: 1px dimgrey solid;
+}
+section form+p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section .login_box .lb_d1 p{
+    line-height: 50px;
+    font-size: 13px;
+    padding-left: 250px;
+}
+section .login_box .lb_d1 img{
+    vertical-align: middle;
+    width: 17px;
+    height: 16px;
+    margin-left: 5px;
+}
+section .login_box .lb_d2 a{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+section .login_box .lb_d2 a:first-of-type{
+    background: url("../images/loginpage_images/l_1.png") no-repeat;
+    background-size: 100% 100%;
+}
+section .login_box .lb_d2 a:nth-of-type(2){
+    background: url("../images/loginpage_images/l_2.png") no-repeat;
+    background-size: 100% 100%;
+}
+section .login_box .lb_d2 a:nth-of-type(3){
+    background: url("../images/loginpage_images/l_3.png") no-repeat;
+    background-size: 100% 100%;
+}
+section .login_box .lb_d2 a:nth-of-type(4){
+    background: url("../images/loginpage_images/l_4.png") no-repeat;
+    background-size: 100% 100%;
+}
+section .login_box .lb_d2 a:first-of-type:hover{
+    background: url("../images/loginpage_images/l_1_h.png") no-repeat;
+    background-size: 100% 100%;
+}
+section .login_box .lb_d2 a:nth-of-type(2):hover{
+    background: url("../images/loginpage_images/l_2_h.png") no-repeat;
+    background-size: 100% 100%;
+}
+section .login_box .lb_d2 a:nth-of-type(3):hover{
+    background: url("../images/loginpage_images/l_3_h.png") no-repeat;
+    background-size: 100% 100%;
+}
+section .login_box .lb_d2 a:nth-of-type(4):hover{
+    background: url("../images/loginpage_images/l_4_h.png") no-repeat;
+    background-size: 100% 100%;
+}
+/*
+=====================================底部*/
+footer{
+    margin-top: 40px;
+    font-size: 13px;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+footer a:hover{
+    color: red;
+}

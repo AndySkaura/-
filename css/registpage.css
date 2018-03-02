@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1.5px rgb(225,225,225) solid;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: dimgrey;
+}
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover,header li a:hover,header .help a:hover{
+    color: red;
+}
+header .logo{
+    float: left;
+    height: 60px;
+    width: 160px;
+    margin:15px 800px 15px 80px;
+}
+header p{
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+header p a{
+    color:dodgerblue;
+}
+header .help a,header li a{
+    color: dimgrey;
+}
+header .help{
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    margin-left: 15px;
+
+}
+header .help img{
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+header ul{
+    position: absolute;
+    border: 1px solid lightgray;
+    list-style: none;
+    top: 0px;
+    right: -2px;
+    width: 99px;
+    height: 143px;
+    padding-top: 32px;
+    display: none;
+}
+header li{
+    line-height: 28px;
+    border: 1px rgba(0,0,0,0.1) solid;
+    padding-left: 24px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+header .help:hover ul{
+    display: block;
+}
+/*===============================中间*/
+section{
+    width: 370px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+section form input{
+    box-sizing: border-box;
+    width: 370px;
+    height: 55px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+section form input:nth-of-type(3){
+    width: 230px;
+}
+section form div{
+    width: 135px;
+    line-height: 55px;
+    text-align: center;
+    float: right;
+    background: dimgrey;
+}
+section form div a{
+    text-decoration: none;
+    color: white;
+}
+section form p{
+    font-size: 13px;
+    color: dimgrey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+section form p a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+section form input[type=submit]{
+    background: rgb(255,60,60);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+section form input[type=submit]:hover{
+    background: rgb(215,34,38);
+}
+/*=====================================底部*/
+footer{
+    margin-top: 20px;
+    font-size: 13px;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+footer a:hover{
+    color: red;
+}
